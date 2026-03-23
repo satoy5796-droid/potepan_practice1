@@ -1,0 +1,12 @@
+@media(max-width: 1000px){
+  p {
+    color: green;
+  }
+}
+
+@media(max-width:670px ){
+  p {
+    color: blue;
+  }
+}
+
