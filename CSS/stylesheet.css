@@ -1,3 +1,95 @@
-p {
-  color: red;
+body {
+    color: #333;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Header {
+  width: 100%;
+}
+
+.Header--common {
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Header {
+    background-color: #fff;
+    display: grid;
+    height: 70px;
+    width: 100%;
+}
+
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+    position: relative;
+}
+
+.HeaderLogo {
+    align-self: center;
+}
+
+.HeaderLogo__image--pc {
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.HeaderContainer>*:last-child {
+    display: inline-flex;
+}
+
+.HeaderNavList {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderNavListItem {
+    margin-right: 45px;
+}
+
+.HeaderNavListItem__link {
+    display: block;
+}
+
+.HeaderNavListItem__link>span:first-child {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+}
+
+.HeaderNavListItem__link>span {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.HeaderNavListItem__button {
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
 }
