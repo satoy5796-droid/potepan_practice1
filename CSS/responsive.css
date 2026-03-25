@@ -1,1 +1,136 @@
+@media(max-width: 414px) {
+    .Header {
+        height: 48px;
+        padding: 0;
+    }
 
+    main {
+        padding-top: 48px;
+    }
+}
+
+@media(max-width: 767px) {
+    .HeaderContainer {
+        max-width: 100%;
+        margin: 0 16px;
+    }
+
+    .HeaderLogo__image--pc {
+        display: none !important;
+    }
+
+    .HeaderLogo__image--sp {
+        display: block !important;
+    }
+
+    main {
+        padding-top: 52px;
+    }
+
+    .FirstView {
+        height: fit-content;
+    }
+
+    .FirstView__bg-image {
+        display: none;
+    }
+
+    .FirstView__whole-image {
+        display: block;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+
+    .FirstView__Container {
+        padding-top: 0;
+        padding-bottom: 20px;
+        max-width: none;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .FirstViewContent__title {
+        font-size: 22px;
+        line-height: 36px;
+        position: relative;
+        width: fit-content;
+    }
+
+    .FirstViewContent__badge-image {
+        height: 102px;
+        width: 102px;
+        top: -20px;
+        right: -110px;
+    }
+
+    .FirstViewContent__button {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 1080px) {
+    .Header--common {
+        position: fixed !important;
+    }
+
+    .Header {
+        background-color: #fff;
+        z-index: 10;
+    }
+
+    .HeaderNavHamburger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 17px;
+        margin: auto;
+        z-index: 100;
+    }
+
+    .HeaderNavHamburger__line:first-child {
+        top: 0;
+    }
+
+    .HeaderNavHamburger__line {
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #A2A2A4;
+        transform: translate(0, -50%);
+        border-radius: 10px;
+        transition: top 0.2s, transform 0.2s, opacity 0.3s;
+    }
+
+    .HeaderNavHamburger__line:last-child {
+        top: 100%;
+    }
+
+    .HeaderNavList {
+        overflow-y: scroll;
+        position: fixed;
+        top: 60px;
+        left: 100%;
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 75px;
+        transition: transform 0.5s;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+    }
+
+    main {
+        padding-top: 60px;
+    }
+
+    .FirstView__Container {
+        max-width: none;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}

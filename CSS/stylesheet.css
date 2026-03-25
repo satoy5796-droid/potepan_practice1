@@ -45,6 +45,12 @@ body {
     width: auto;
 }
 
+.HeaderLogo__image--sp {
+    display: none;
+    height: 16px;
+    width: auto;
+}
+
 a {
     color: #333;
     text-decoration: none;
@@ -119,7 +125,7 @@ main {
 
 .FirstView__bg-image--right-rectangle {
     right: 0;
-    bottom: -70px;
+    bottom: 70px;
 }
 
 .FirstView__bg-image--fill-rectangle {
@@ -131,6 +137,10 @@ main {
     top: -70px;
     right: 0;
     width: 775px;
+}
+
+.FirstView__whole-image {
+    display: none;
 }
 
 .FirstView__bg-image {
